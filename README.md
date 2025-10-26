@@ -171,3 +171,5 @@ Database Name: ns_F25MIST4610_59925_Group5 <br>
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1(); and so forth for remaining queries.
 
+
+<img width="1510" height="1310" alt="query types" src="https://github.com/user-attachments/assets/8ce371a1-76e9-4a21-953d-fbb54a2d27b5" />
