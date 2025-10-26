@@ -63,10 +63,7 @@ In summary, this data model represents a complete retail management system that 
 
 
 
-## Queries and Database Information:
-
-Database Name: ns_F25MIST4610_59925_Group5
-
+## Queries:
 
 1. Identify products with low inventory (below average)
 
@@ -75,74 +72,102 @@ Query: Lists all products whose stock quantity is below the overall average inve
 Reason:
 This query alerts managers to which products are running low and may need to be reordered soon. By identifying below-average inventory levels, managers can proactively restock items and prevent stockouts, ensuring smooth operations and satisfied customers.
 
+<img width="2835" height="665" alt="Q1" src="https://github.com/user-attachments/assets/08eaf7b5-d2fd-4f19-8072-ffdb63ef5768" />
 
-2. Find promotions that occurred during months with below-average sales
+
+<br>2. Find promotions that occurred during months with below-average sales
 
 Query: Returns all promotions that were active in months when total sales were below the average across all months.
 
 Reason:
 This helps managers evaluate the timing and effectiveness of promotions. If promotions are being scheduled during slow sales periods but still not improving performance, managers can adjust marketing strategies or shift promotions to more impactful times.
 
+<img width="2022" height="595" alt="Q2" src="https://github.com/user-attachments/assets/3c298751-5b93-4a7e-a106-af939af19b6e" />
 
-3. List all employees who have never processed a sales order
+
+<br>3. List all employees who have never processed a sales order
 
 Query: Identifies employees who do not appear in the sales order records.
 
 Reason:
 Managers can use this information to detect inactive employees or staff members who may need additional training or reassignment. It ensures all employees are contributing effectively to sales operations.
 
+<img width="1837" height="545" alt="Q3" src="https://github.com/user-attachments/assets/6668179e-c538-44e3-b541-55471205525c" />
 
-4. Show store names and their total sales revenue, ordered from highest to lowest
+
+<br>4. Show store names and their total sales revenue, ordered from highest to lowest
 
 Query: Aggregates total sales revenue for each store location and sorts results in descending order.
 
 Reason:
 By listing stores by total revenue, managers can easily identify which locations are performing best financially and which may need extra support or strategic adjustments to improve sales performance.
 
+<img width="1652" height="775" alt="Q4" src="https://github.com/user-attachments/assets/e80d2ace-3e52-4555-b397-bb8f45ac71f6" />
 
-5. List customers whose total purchase value exceeds the average across all customers, and the amount that they’ve spent
+
+<br>5. List customers whose total purchase value exceeds the average across all customers, and the amount that they’ve spent
 
 Query: Calculates each customer’s total purchase value, compares it to the overall customer average, and lists those exceeding that average.
 
 Reason:
 This allows managers to identify high-value or VIP customers who could be targeted for loyalty rewards, personalized promotions, or special recognition to strengthen customer relationships.
 
+<img width="1867" height="800" alt="Q5" src="https://github.com/user-attachments/assets/cc52d9c2-d198-4ff4-be5d-724b97d31b5e" />
 
-6. Calculate profit margin per product, sort by highest to lowest
+
+<br>6. Calculate profit margin per product, sort by highest to lowest
 
 Query: Computes profit margin for each product (selling price - cost/selling price) and displays them in descending order.
 
 Reason:
 This enables managers to see which items yield the greatest profit margins and make informed pricing or marketing decisions to maximize profitability.
 
+<img width="2960" height="865" alt="Q6" src="https://github.com/user-attachments/assets/3697c4e3-e3bf-415f-8485-aecffea07e5d" />
 
-7. Display all products whose unit price is greater than $50, along with brand and SKU
+
+<br>7. Display all products whose unit price is greater than $50, along with brand and SKU
 
 Query: Retrieves details of all high-priced products, including their brand names and stock-keeping unit (SKU).
 
 Reason:
 Managers can identify premium or high-value items that may benefit from targeted advertising, special promotions, or discount campaigns to increase turnover and attract attention to top-tier products.
 
+<img width="955" height="565" alt="Q7" src="https://github.com/user-attachments/assets/b9604ccb-2c37-4f4e-8734-4f013e71f27e" />
 
-8. List all employee names, roles, and contact for the downtown store
+
+<br>8. List all employee names, roles, and contact for the downtown store
 
 Query: Displays employee details—name, position, and contact information—for those assigned to the downtown location.
 
 Reason:
 Managers can quickly reference which employees are stationed at a specific store, streamlining scheduling, communication, and coordination within that location.
 
+<img width="1935" height="942" alt="Q8" src="https://github.com/user-attachments/assets/bd44da8d-61c9-4305-81e0-d008f39c240e" />
 
-9. List each supplier name and how many purchase orders they’ve been involved in
+
+<br>9. List each supplier name and how many purchase orders they’ve been involved in
 
 Query: Counts the number of purchase orders associated with each supplier and displays their names.
 
 Reason:
 This helps managers identify which suppliers are most active, reliable, and essential to operations. High-activity suppliers might warrant stronger partnerships or priority in procurement decisions.
 
+<img width="2037" height="625" alt="Q9" src="https://github.com/user-attachments/assets/2df4c488-a1b4-4251-a80f-3cb1e89d2ed4" />
 
-10. List customer contact info (full name, phone, email) for customers with last name beginning with “W”
+
+<br>10. List customer contact info (full name, phone, email) for customers with last name beginning with “W”
 
 Query: Retrieves customer names, phone numbers, and email addresses for all customers whose last name starts with “W.”
 
 Reason:
 This allows managers or marketing teams to create personalized campaigns or loyalty programs targeted at specific customer segments, enhancing engagement and retention.
+
+<img width="915" height="502" alt="Q10" src="https://github.com/user-attachments/assets/7a8a6f47-c174-4a9c-bce5-bec8084da2f8" />
+
+
+## Database Information:
+
+Database Name: ns_F25MIST4610_59925_Group5 <br>
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1(); and so forth for remaining queries.
+
