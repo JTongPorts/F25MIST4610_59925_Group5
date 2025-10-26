@@ -42,8 +42,25 @@ Payments made by customers are tracked in the Payment table. Each payment record
 
 In summary, this data model represents a complete retail management system that integrates store operations, employee supervision, supplier purchasing, product management, sales transactions, promotions, and customer payments. It supports tracking the entire business process — from acquiring products from suppliers, managing store inventory, and selling to customers, to recording payments and promotions — all while maintaining clear relationships between entities across the retail network.
 
+<img width="1274" height="1060" alt="finalRetailDataModel" src="https://github.com/user-attachments/assets/41c9141b-a13b-43a8-8a0f-11b58c06e870" />
+
 
 ## Data Dictionary:
+<img width="2002" height="1112" alt="Table_Store" src="https://github.com/user-attachments/assets/2ec09850-259d-410d-a68e-ad11eb67afdc" />
+<img width="1872" height="1172" alt="Table_Supplier" src="https://github.com/user-attachments/assets/64948f49-1d07-4c19-90ea-d1a85bdc5547" />
+<img width="2002" height="1187" alt="Table_PurchaseOrder" src="https://github.com/user-attachments/assets/a7455630-b1ee-4c12-84d9-984fd5860cfa" />
+<img width="2015" height="1242" alt="Table_PurchaseOrderLine" src="https://github.com/user-attachments/assets/ff0b4c34-ac80-4309-a295-026c89cb3d2e" />
+<img width="1447" height="1195" alt="Table_Employee" src="https://github.com/user-attachments/assets/de533d79-f26e-4274-830f-379579b5f24a" />
+<img width="1807" height="1292" alt="Table_Product" src="https://github.com/user-attachments/assets/7ca01412-fc5d-4183-9dc8-5d60f250aa0a" />
+<img width="2020" height="895" alt="Table_Category" src="https://github.com/user-attachments/assets/5fbbd284-b6d5-4210-9133-044efb23a552" />
+<img width="1910" height="1035" alt="Table_Inventory" src="https://github.com/user-attachments/assets/53cdd1b0-1267-4ffc-9e12-f36b7a47034c" />
+<img width="1675" height="1250" alt="Table_Promotion" src="https://github.com/user-attachments/assets/6cb16ca8-16cf-461d-803f-2b9d3ff12869" />
+<img width="1472" height="1330" alt="Table_SalesOrder" src="https://github.com/user-attachments/assets/bc112aba-1aa3-4943-b94f-ebce6162a14c" />
+<img width="2100" height="1147" alt="Table_SalesOrderLine" src="https://github.com/user-attachments/assets/791ffa2c-e535-490d-817f-21e288b80e86" />
+<img width="1940" height="1070" alt="Table_Payment" src="https://github.com/user-attachments/assets/ce9bb6c9-5d98-4ae6-8a0e-a83db18523bc" />
+<img width="1905" height="1220" alt="Table_Customer" src="https://github.com/user-attachments/assets/34858c86-0495-4b71-9e4a-d25eba32a92b" />
+
+
 
 
 ## Queries and Database Information:
